@@ -1,0 +1,14 @@
+---PRODUCT BACKLOG----							-------	USER STORIES------
+										
+1)check-in
+   PNR No:							user will enter his pnr no
+   email:							user will enter his email 
+2)Boarding
+   select seat preferences:					user will select his required seat preferences
+  
+
+4)Baggage
+   weight of baggage:						user will enter the baggage details 
+   print bag tag:						display bag tag
+5)Loyality points
+   travel point:						user will get the points based on his no of travels 
