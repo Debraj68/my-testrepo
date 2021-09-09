@@ -119,12 +119,8 @@
 				<groupId>org.jacoco</groupId>
 				<artifactId>jacoco-maven-plugin</artifactId>
 				<version>0.8.6</version>
+			
 				
-				<plugin>
-				<groupId>org.eclipse.jkube</groupId>
-				<artifactId>kubernetes-maven-plugin</artifactId>
-				<version>${jkube.version}</version>
-			</plugin>
 			
 				<executions>
 					<execution>
@@ -165,6 +161,11 @@
 						<exclude>com/eldisol/jacoboot/JacobootApplication.class</exclude>
 					</excludes>
 				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.eclipse.jkube</groupId>
+				<artifactId>kubernetes-maven-plugin</artifactId>
+				<version>${jkube.version}</version>
 			</plugin>
 		</plugins>
 		
